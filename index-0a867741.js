@@ -13,6 +13,7 @@
         height: 100%;
         font-size: 1.2rem;
         position: relative;
+        cursor: pointer;
       }
 
       p {
@@ -118,7 +119,7 @@
         --bgcolor: #ece9d8;
         --title-color: #0055e6;
         --title-medium-color: #084bd1;
-        --title-dark-color: #0e43ab;
+        --title-dark-color: #003092;
         --title-light-color: #196dce;
         --offset: 0.5rem;
         --serif-font: "MS Serif", serif;
@@ -149,7 +150,23 @@
         border-radius: 10px 10px 0 0;
         background-image:
           linear-gradient(to right, #0003, transparent 5% 95%, #0003),
-          url("images/title-bar.png");
+          linear-gradient(
+            #0058ee 0%,
+            #3593ff 4%,
+            #288eff 6%,
+            #127dff 8%,
+            #036ffc 10%,
+            #0262ee 14%,
+            #0057e5 20%,
+            #0054e3 24%,
+            #0055eb 56%,
+            #005bf5 66%,
+            #026afe 76%,
+            #0062ef 86%,
+            #0052d6 92%,
+            #0040ab 94%,
+            #003092 100%
+          );
         background-size: contain;
 
         display: flex;
