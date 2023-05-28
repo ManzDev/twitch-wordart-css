@@ -20,6 +20,7 @@ class WordArt extends HTMLElement {
         height: 100%;
         font-size: 1.2rem;
         position: relative;
+        cursor: pointer;
       }
 
       p {
