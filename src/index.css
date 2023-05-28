@@ -1,0 +1,10 @@
+body {
+  background: #223;
+  background-image: url("images/wallpaper.jpg");
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  height: 90vh;
+}

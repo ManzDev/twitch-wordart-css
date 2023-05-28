@@ -1,0 +1,13 @@
+.title-bar {
+  border: 2px solid var(--title-dark-color);
+  border-top-width: 1px;
+  border-bottom: 0;
+  background-image:
+    linear-gradient(
+      var(--title-color) 2%,
+      var(--title-color) 76%,
+      var(--title-medium-color) 90%,
+      var(--title-dark-color) 98%
+    );
+  box-shadow: none;
+}
